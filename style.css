@@ -340,7 +340,7 @@ nav{
 }
 
 .model__open .model{
-    z-index: 60;
+    z-index: 200;
     visibility: visible;
     box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.55);
 }
