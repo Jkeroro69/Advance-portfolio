@@ -239,6 +239,7 @@ nav,
     bottom: 32px;
     right: 40px;
     z-index: 200;
+    transition: all 300ms ease;
 }
 
 .scroll{
@@ -314,9 +315,6 @@ nav{
     font-size: 20px;
 }
 
-.fa-flip:hover{
-    animation-play-state: paused;
-}
 
 /* MODEL */
 
@@ -340,6 +338,10 @@ nav{
     z-index: 60;
     visibility: visible;
     box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.55);
+}
+
+.model__open .mail-btn{
+    transform:scale(0)
 }
 
 .model-about,
@@ -715,15 +717,15 @@ footer {
     left:80vw;
 }
 .shape-7{
-    top:80vh;
+    top:75vh;
     left:20vw;
 }
 .shape-8{
-    top:80vh;
+    top:75vh;
     left:55vw;
 }
 .shape-9{
-    top:80vh;
+    top:75vh;
     left:80vw;
 }
 
@@ -761,7 +763,6 @@ footer {
         .model-about,
         .model-contact{
             width: 100%;
-            scale: 0.9;
         }
       }
 
@@ -811,17 +812,31 @@ footer {
             width: 100%;
             flex-direction: column-reverse;
         }
-        .model-about,
-        .model-contact{
-            width: 100%;
-            scale: 1;
+        .project{
+            padding: 60px 0 10px 0;
         }
-        .container{
-            padding-top: 500px;
+        textarea{
+            height: 100px;
+        }
+        .about-title{
+            font-size: 20px;
+        }
+        .about-subtitle,
+        .contact-subtitle{
+            font-size: 16px;
+            margin: 12px;
+            text-align: center;
+        }
+        .about-para{
+            font-size: 14px;
         }
         .shape-5,
         .shape-6{
             top: 30vh;
+        }
+        .scroll-icon,
+        .scroll-icon:after{
+            scale: 0.8;
         }
 }
       
