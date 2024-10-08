@@ -187,7 +187,7 @@ nav,
 /* LANDING */
 
 #Landing-page{
-    min-height: 100vh;
+    min-height: 110vh;
 }
 
 .header{
@@ -577,7 +577,7 @@ nav{
   }
   
 .Project-list {
-    padding-top: 60px;
+    padding-top: 25px;
 }
 
 .project{
@@ -776,6 +776,8 @@ footer {
             font-size: 16px;
         }
         .mail-btn{
+            bottom: 20px;
+            right: 20px;
             scale: 0.8;
         }
         .project_description--para {
@@ -808,15 +810,18 @@ footer {
             top: 0;
             left: 0;
             transform: none;
-            height: auto;
+            height:auto;
             width: 100%;
             flex-direction: column-reverse;
         }
-        .project{
-            padding: 60px 0 10px 0;
+        .contact-btn{
+            justify-content: center;
         }
         textarea{
-            height: 100px;
+            height: 50px;
+        }
+        .project{
+            padding-bottom: 60px;
         }
         .about-title{
             font-size: 20px;
